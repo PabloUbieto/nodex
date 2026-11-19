@@ -1,8 +1,12 @@
+<p align="center">
+  <b>Español</b> | <a href="CONTRIBUTING.en.md">English</a>
+</p>
+
 # Guía de contribución
 
 Normas de trabajo del repositorio: ramas, commits y Pull Requests. Las hacen cumplir los rulesets de GitHub y la acción **PR checks**.
 
-## 🌿 Ramas
+## Ramas
 
 | Rama | Uso |
 |---|---|
@@ -13,7 +17,7 @@ Normas de trabajo del repositorio: ramas, commits y Pull Requests. Las hacen cum
 
 Cada persona trabaja únicamente en su rama `feature`. Esas ramas no se borran ni se reescriben: no hay force push.
 
-## 🔀 Flujo de trabajo
+## Flujo de trabajo
 
 1. Actualiza tu rama con los últimos cambios de `develop`.
 2. Haz commits pequeños en tu rama y súbelos.
@@ -22,7 +26,7 @@ Cada persona trabaja únicamente en su rama `feature`. Esas ramas no se borran n
 5. El propietario del repositorio mergea con **Create a merge commit**.
 6. Al terminar el trabajo, una única PR de `develop` a `main`.
 
-## ✍️ Commits y títulos de PR
+## Commits y títulos de PR
 
 Se usa [Conventional Commits](https://www.conventionalcommits.org/) en inglés: `tipo(ámbito): descripción en imperativo`. El ámbito es opcional.
 
@@ -41,7 +45,7 @@ Ejemplos: `feat(homepage): add hero banner`, `docs(readme): update branding path
 
 Un propósito por commit y por PR.
 
-## ✅ Comprobación automática
+## Comprobación automática
 
 La acción **PR checks** revisa cada Pull Request hacia `develop` o `main`:
 
@@ -49,6 +53,6 @@ La acción **PR checks** revisa cada Pull Request hacia `develop` o `main`:
 - Hacia `main` solo se acepta desde `develop`.
 - El título de la PR y todos sus commits deben seguir Conventional Commits.
 
-## 🧹 Estilo de archivos
+## Estilo de archivos
 
 `.editorconfig` define la codificación, la indentación y el salto de línea final. Todos los archivos terminan con una línea vacía.
